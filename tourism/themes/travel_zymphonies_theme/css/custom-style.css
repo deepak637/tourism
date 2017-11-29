@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,400italic,700,100);
 
-/* --------------------------------------------- 
+/* ---------------------------------------------
 * Filename: custom-style.css
 * Version: 1.0.0 (2016-06-19)
 * Website: http://www.zymphonies.com
@@ -14,7 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 160%;
-  color: black;
+  color: #333;
   overflow-x: hidden;
   font-weight: 400;
   background: url(../images/header_bg.jpg) #FFFFFB fixed top;
@@ -53,7 +53,7 @@ a {
   color: #15bd33;
 }
 a:hover {
-  color: red;
+  color: #028019;
   text-decoration: none;
 }
 ul.links.inline {
@@ -74,7 +74,7 @@ ul.links.inline li {
   position: relative;
 }
 .main-header nav {
-  background: #3d492d;
+  background: none;
   border: 0;
   margin: 10px 0;
   position: relative;
@@ -86,11 +86,9 @@ ul.links.inline li {
 .main-header .region {
   position: relative;
   z-index: 2;
-  background: green;
 }
 .main-header .block {
   margin: 0;
-  background: #89922e;
 }
 /*Region Header*/
 
@@ -98,7 +96,7 @@ ul.links.inline li {
   margin: 0;
 }
 .brand.logo {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .region-header .brand {
   display: inline-block;
@@ -108,11 +106,11 @@ ul.links.inline li {
 }
 .site-name a {
   font-size: 24px;
-  color: #7b2b48;
+  color: #333;
 }
 .region-header .site-branding__slogan {
   font-size: 9px;
-  color: red;
+  color: #555;
   text-transform: uppercase;
 }
 
@@ -121,7 +119,6 @@ ul.links.inline li {
 .slideshow {
   text-align: center;
   line-height: 160%;
-  height: 100%;
   position: relative;
   border: 10px solid #fff;
   box-shadow: 0px 0px 5px #989898;
@@ -129,7 +126,7 @@ ul.links.inline li {
 .slideshow h2 {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: #fff;
 }
 .slideshow .item:after {
   position: absolute;
@@ -335,8 +332,8 @@ ul.links.inline li {
 .footer-menu {
   margin: 0;
   border: 0;
-  background: red;
-  color: green;
+  background: #ffffff;
+  color: #fff;
 }
 .footer-menu ul {
   margin: 10px 0;
@@ -440,8 +437,8 @@ input[type="submit"]:hover {
   margin-right: 0;
   border: 0;
   border-radius: 0;
-  color: red;
-  background: blue;
+  color: #fff;
+  background: none;
   padding: 6px 6px;
   width: 40px;
 }
@@ -463,7 +460,7 @@ nav h2 {
 }
 .menu-base-theme li a {
   background: #333;
-  color: cyan;
+  color: #fff;
   border-color: #4c4c4c;
 }
 .menu-base-theme,
@@ -756,7 +753,6 @@ hr {
 ul.links.inline li {
   display: inline-block;
   padding-right: 10px;
-  color:green;
 }
 
 /*Carousel*/
